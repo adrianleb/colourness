@@ -1,0 +1,17 @@
+<% c = @color.color.attributes %> 
+<section id="<%= c.hex %>"data-hex="#<%= c.hex %>" data-r="<%=c.rgb.r%>"  data-g="<%=c.rgb.g%>"  data-b="<%=c.rgb.b%>" data-brightness="<%= c.brightness %>"style=" background-color:<%= if c.brightness < 0.5 then "hsl(0,0%, 90%)" else "hsl(0,0%, 10%)" %>; color:#<%= c.hex %>;">
+  
+  <div class="sample" style="background-color:#<%= c.hex %>;" > </div>
+  <div class="details">
+      <h1 >#<%= c.hex %></h1>
+      <h2><%= c.name %></h2>
+  </div>
+      <div class="others">
+        <p>RAL <%= c.ral %></p>
+        <p>RGB <%= c.rgb.rgb %></p>
+      </div>
+
+</section>
+
+
+

@@ -1,0 +1,12 @@
+<header class="fixed">
+  <h1 class="colorizing">Coloric</h1>
+</header>
+
+
+<section id="color"class="color"></section> 
+
+<section id="roll" class="roll"></section>
+
+<footer class="fixed">
+  <p class="colorizing"> A thing by @adrianleb &amp; @karinvsoest</p>
+</footer>

@@ -1,0 +1,2318 @@
+[
+   {
+      "name":"Green beige",
+      "ral":"1000",
+      "rgb":{
+         "r":"204",
+         "g":"204",
+         "b":"153",
+         "rgb":"204, 204, 153"
+      },
+      "hex":"CCCC99",
+      "brightness":"0.80"
+   },
+   {
+      "name":"Beige",
+      "ral":"1001",
+      "rgb":{
+         "r":"210",
+         "g":"170",
+         "b":"90",
+         "rgb":"210, 170, 90"
+      },
+      "hex":"D2AA5A",
+      "brightness":"0.82"
+   },
+   {
+      "name":"Sand yellow",
+      "ral":"1002",
+      "rgb":{
+         "r":"208",
+         "g":"168",
+         "b":"24",
+         "rgb":"208, 168, 24"
+      },
+      "hex":"D0A818",
+      "brightness":"0.82"
+   },
+   {
+      "name":"Signal yellow",
+      "ral":"1003",
+      "rgb":{
+         "r":"255",
+         "g":"204",
+         "b":"0",
+         "rgb":"255, 204, 0"
+      },
+      "hex":"FFCC00",
+      "brightness":"1.00"
+   },
+   {
+      "name":"Golden yellow",
+      "ral":"1004",
+      "rgb":{
+         "r":"224",
+         "g":"176",
+         "b":"0",
+         "rgb":"224, 176, 0"
+      },
+      "hex":"E0B000",
+      "brightness":"0.88"
+   },
+   {
+      "name":"Honey yellow",
+      "ral":"1005",
+      "rgb":{
+         "r":"201",
+         "g":"135",
+         "b":"33",
+         "rgb":"201, 135, 33"
+      },
+      "hex":"C98721",
+      "brightness":"0.79"
+   },
+   {
+      "name":"Maize yellow",
+      "ral":"1006",
+      "rgb":{
+         "r":"227",
+         "g":"167",
+         "b":"41",
+         "rgb":"227, 167, 41"
+      },
+      "hex":"E3A729",
+      "brightness":"0.89"
+   },
+   {
+      "name":"Daffodil yellow",
+      "ral":"1007",
+      "rgb":{
+         "r":"221",
+         "g":"159",
+         "b":"35",
+         "rgb":"221, 159, 35"
+      },
+      "hex":"DD9F23",
+      "brightness":"0.87"
+   },
+   {
+      "name":"Brown beige",
+      "ral":"1011",
+      "rgb":{
+         "r":"173",
+         "g":"122",
+         "b":"41",
+         "rgb":"173, 122, 41"
+      },
+      "hex":"AD7A29",
+      "brightness":"0.68"
+   },
+   {
+      "name":"Lemon yellow",
+      "ral":"1012",
+      "rgb":{
+         "r":"227",
+         "g":"184",
+         "b":"56",
+         "rgb":"227, 184, 56"
+      },
+      "hex":"E3B838",
+      "brightness":"0.89"
+   },
+   {
+      "name":"Oyster white",
+      "ral":"1013",
+      "rgb":{
+         "r":"255",
+         "g":"245",
+         "b":"227",
+         "rgb":"255, 245, 227"
+      },
+      "hex":"FFF5E3",
+      "brightness":"1.00"
+   },
+   {
+      "name":"Ivory",
+      "ral":"1014",
+      "rgb":{
+         "r":"240",
+         "g":"214",
+         "b":"171",
+         "rgb":"240, 214, 171"
+      },
+      "hex":"F0D6AB",
+      "brightness":"0.94"
+   },
+   {
+      "name":"Light ivory",
+      "ral":"1015",
+      "rgb":{
+         "r":"252",
+         "g":"235",
+         "b":"204",
+         "rgb":"252, 235, 204"
+      },
+      "hex":"FCEBCC",
+      "brightness":"0.99"
+   },
+   {
+      "name":"Sulfur yellow",
+      "ral":"1016",
+      "rgb":{
+         "r":"255",
+         "g":"245",
+         "b":"66",
+         "rgb":"255, 245, 66"
+      },
+      "hex":"FFF542",
+      "brightness":"1.00"
+   },
+   {
+      "name":"Saffron yellow",
+      "ral":"1017",
+      "rgb":{
+         "r":"255",
+         "g":"171",
+         "b":"89",
+         "rgb":"255, 171, 89"
+      },
+      "hex":"FFAB59",
+      "brightness":"1.00"
+   },
+   {
+      "name":"Zinc yellow",
+      "ral":"1018",
+      "rgb":{
+         "r":"255",
+         "g":"214",
+         "b":"77",
+         "rgb":"255, 214, 77"
+      },
+      "hex":"FFD64D",
+      "brightness":"1.00"
+   },
+   {
+      "name":"Grey beige",
+      "ral":"1019",
+      "rgb":{
+         "r":"163",
+         "g":"140",
+         "b":"122",
+         "rgb":"163, 140, 122"
+      },
+      "hex":"A38C7A",
+      "brightness":"0.64"
+   },
+   {
+      "name":"Olive yellow",
+      "ral":"1020",
+      "rgb":{
+         "r":"156",
+         "g":"143",
+         "b":"97",
+         "rgb":"156, 143, 97"
+      },
+      "hex":"9C8F61",
+      "brightness":"0.61"
+   },
+   {
+      "name":"Rape yellow",
+      "ral":"1021",
+      "rgb":{
+         "r":"252",
+         "g":"189",
+         "b":"31",
+         "rgb":"252, 189, 31"
+      },
+      "hex":"FCBD1F",
+      "brightness":"0.99"
+   },
+   {
+      "name":"Traffic yellow",
+      "ral":"1023",
+      "rgb":{
+         "r":"252",
+         "g":"189",
+         "b":"31",
+         "rgb":"252, 189, 31"
+      },
+      "hex":"FCBD1F",
+      "brightness":"0.99"
+   },
+   {
+      "name":"Ochre yellow",
+      "ral":"1024",
+      "rgb":{
+         "r":"181",
+         "g":"140",
+         "b":"79",
+         "rgb":"181, 140, 79"
+      },
+      "hex":"B58C4F",
+      "brightness":"0.71"
+   },
+   {
+      "name":"Luminous yellow",
+      "ral":"1026",
+      "rgb":{
+         "r":"255",
+         "g":"255",
+         "b":"10",
+         "rgb":"255, 255, 10"
+      },
+      "hex":"FFFF0A",
+      "brightness":"1.00"
+   },
+   {
+      "name":"Curry",
+      "ral":"1027",
+      "rgb":{
+         "r":"153",
+         "g":"117",
+         "b":"33",
+         "rgb":"153, 117, 33"
+      },
+      "hex":"997521",
+      "brightness":"0.60"
+   },
+   {
+      "name":"Melon yellow",
+      "ral":"1028",
+      "rgb":{
+         "r":"255",
+         "g":"140",
+         "b":"26",
+         "rgb":"255, 140, 26"
+      },
+      "hex":"FF8C1A",
+      "brightness":"1.00"
+   },
+   {
+      "name":"Broom yellow",
+      "ral":"1032",
+      "rgb":{
+         "r":"227",
+         "g":"163",
+         "b":"41",
+         "rgb":"227, 163, 41"
+      },
+      "hex":"E3A329",
+      "brightness":"0.89"
+   },
+   {
+      "name":"Dahlia yellow",
+      "ral":"1033",
+      "rgb":{
+         "r":"255",
+         "g":"148",
+         "b":"54",
+         "rgb":"255, 148, 54"
+      },
+      "hex":"FF9436",
+      "brightness":"1.00"
+   },
+   {
+      "name":"Pastel yellow",
+      "ral":"1034",
+      "rgb":{
+         "r":"247",
+         "g":"153",
+         "b":"92",
+         "rgb":"247, 153, 92"
+      },
+      "hex":"F7995C",
+      "brightness":"0.97"
+   },
+   {
+      "name":"Yellow orange",
+      "ral":"2000",
+      "rgb":{
+         "r":"224",
+         "g":"94",
+         "b":"31",
+         "rgb":"224, 94, 31"
+      },
+      "hex":"E05E1F",
+      "brightness":"0.88"
+   },
+   {
+      "name":"Red orange",
+      "ral":"2001",
+      "rgb":{
+         "r":"186",
+         "g":"46",
+         "b":"33",
+         "rgb":"186, 46, 33"
+      },
+      "hex":"BA2E21",
+      "brightness":"0.73"
+   },
+   {
+      "name":"Vermilion",
+      "ral":"2002",
+      "rgb":{
+         "r":"204",
+         "g":"36",
+         "b":"28",
+         "rgb":"204, 36, 28"
+      },
+      "hex":"CC241C",
+      "brightness":"0.80"
+   },
+   {
+      "name":"Pastel orange",
+      "ral":"2003",
+      "rgb":{
+         "r":"255",
+         "g":"99",
+         "b":"54",
+         "rgb":"255, 99, 54"
+      },
+      "hex":"FF6336",
+      "brightness":"1.00"
+   },
+   {
+      "name":"Pure orange",
+      "ral":"2004",
+      "rgb":{
+         "r":"242",
+         "g":"59",
+         "b":"28",
+         "rgb":"242, 59, 28"
+      },
+      "hex":"F23B1C",
+      "brightness":"0.95"
+   },
+   {
+      "name":"Luminous orange",
+      "ral":"2005",
+      "rgb":{
+         "r":"252",
+         "g":"28",
+         "b":"20",
+         "rgb":"252, 28, 20"
+      },
+      "hex":"FC1C14",
+      "brightness":"0.99"
+   },
+   {
+      "name":"Luminous bright orange",
+      "ral":"2007",
+      "rgb":{
+         "r":"255",
+         "g":"117",
+         "b":"33",
+         "rgb":"255, 117, 33"
+      },
+      "hex":"FF7521",
+      "brightness":"1.00"
+   },
+   {
+      "name":"Bright red orange",
+      "ral":"2008",
+      "rgb":{
+         "r":"250",
+         "g":"79",
+         "b":"41",
+         "rgb":"250, 79, 41"
+      },
+      "hex":"FA4F29",
+      "brightness":"0.98"
+   },
+   {
+      "name":"Traffic orange",
+      "ral":"2009",
+      "rgb":{
+         "r":"235",
+         "g":"59",
+         "b":"28",
+         "rgb":"235, 59, 28"
+      },
+      "hex":"EB3B1C",
+      "brightness":"0.92"
+   },
+   {
+      "name":"Signal orange",
+      "ral":"2010",
+      "rgb":{
+         "r":"212",
+         "g":"69",
+         "b":"41",
+         "rgb":"212, 69, 41"
+      },
+      "hex":"D44529",
+      "brightness":"0.83"
+   },
+   {
+      "name":"Deep orange",
+      "ral":"2011",
+      "rgb":{
+         "r":"237",
+         "g":"92",
+         "b":"0",
+         "rgb":"237, 92, 0"
+      },
+      "hex":"ED5C00",
+      "brightness":"0.93"
+   },
+   {
+      "name":"Salmon orange",
+      "ral":"2012",
+      "rgb":{
+         "r":"222",
+         "g":"82",
+         "b":"71",
+         "rgb":"222, 82, 71"
+      },
+      "hex":"DE5247",
+      "brightness":"0.87"
+   },
+   {
+      "name":"Flame red",
+      "ral":"3000",
+      "rgb":{
+         "r":"171",
+         "g":"31",
+         "b":"28",
+         "rgb":"171, 31, 28"
+      },
+      "hex":"AB1F1C",
+      "brightness":"0.67"
+   },
+   {
+      "name":"Signal red",
+      "ral":"3001",
+      "rgb":{
+         "r":"163",
+         "g":"23",
+         "b":"26",
+         "rgb":"163, 23, 26"
+      },
+      "hex":"A3171A",
+      "brightness":"0.64"
+   },
+   {
+      "name":"Carmine red",
+      "ral":"3002",
+      "rgb":{
+         "r":"163",
+         "g":"26",
+         "b":"26",
+         "rgb":"163, 26, 26"
+      },
+      "hex":"A31A1A",
+      "brightness":"0.64"
+   },
+   {
+      "name":"Ruby red",
+      "ral":"3003",
+      "rgb":{
+         "r":"138",
+         "g":"18",
+         "b":"20",
+         "rgb":"138, 18, 20"
+      },
+      "hex":"8A1214",
+      "brightness":"0.54"
+   },
+   {
+      "name":"Purple red",
+      "ral":"3004",
+      "rgb":{
+         "r":"105",
+         "g":"15",
+         "b":"20",
+         "rgb":"105, 15, 20"
+      },
+      "hex":"690F14",
+      "brightness":"0.41"
+   },
+   {
+      "name":"Wine red",
+      "ral":"3005",
+      "rgb":{
+         "r":"79",
+         "g":"18",
+         "b":"26",
+         "rgb":"79, 18, 26"
+      },
+      "hex":"4F121A",
+      "brightness":"0.31"
+   },
+   {
+      "name":"Black red",
+      "ral":"3007",
+      "rgb":{
+         "r":"46",
+         "g":"18",
+         "b":"26",
+         "rgb":"46, 18, 26"
+      },
+      "hex":"2E121A",
+      "brightness":"0.18"
+   },
+   {
+      "name":"Oxide red",
+      "ral":"3009",
+      "rgb":{
+         "r":"94",
+         "g":"33",
+         "b":"33",
+         "rgb":"94, 33, 33"
+      },
+      "hex":"5E2121",
+      "brightness":"0.37"
+   },
+   {
+      "name":"Brown red",
+      "ral":"3011",
+      "rgb":{
+         "r":"120",
+         "g":"20",
+         "b":"23",
+         "rgb":"120, 20, 23"
+      },
+      "hex":"781417",
+      "brightness":"0.47"
+   },
+   {
+      "name":"Beige red",
+      "ral":"3012",
+      "rgb":{
+         "r":"204",
+         "g":"130",
+         "b":"115",
+         "rgb":"204, 130, 115"
+      },
+      "hex":"CC8273",
+      "brightness":"0.80"
+   },
+   {
+      "name":"Tomato red",
+      "ral":"3013",
+      "rgb":{
+         "r":"150",
+         "g":"31",
+         "b":"28",
+         "rgb":"150, 31, 28"
+      },
+      "hex":"961F1C",
+      "brightness":"0.59"
+   },
+   {
+      "name":"Antique pink",
+      "ral":"3014",
+      "rgb":{
+         "r":"217",
+         "g":"102",
+         "b":"117",
+         "rgb":"217, 102, 117"
+      },
+      "hex":"D96675",
+      "brightness":"0.85"
+   },
+   {
+      "name":"Light pink",
+      "ral":"3015",
+      "rgb":{
+         "r":"232",
+         "g":"156",
+         "b":"181",
+         "rgb":"232, 156, 181"
+      },
+      "hex":"E89CB5",
+      "brightness":"0.91"
+   },
+   {
+      "name":"Coral red",
+      "ral":"3016",
+      "rgb":{
+         "r":"166",
+         "g":"36",
+         "b":"38",
+         "rgb":"166, 36, 38"
+      },
+      "hex":"A62426",
+      "brightness":"0.65"
+   },
+   {
+      "name":"Rose",
+      "ral":"3017",
+      "rgb":{
+         "r":"209",
+         "g":"54",
+         "b":"84",
+         "rgb":"209, 54, 84"
+      },
+      "hex":"D13654",
+      "brightness":"0.82"
+   },
+   {
+      "name":"Strawberry red",
+      "ral":"3018",
+      "rgb":{
+         "r":"207",
+         "g":"41",
+         "b":"66",
+         "rgb":"207, 41, 66"
+      },
+      "hex":"CF2942",
+      "brightness":"0.81"
+   },
+   {
+      "name":"Traffic red",
+      "ral":"3020",
+      "rgb":{
+         "r":"199",
+         "g":"23",
+         "b":"18",
+         "rgb":"199, 23, 18"
+      },
+      "hex":"C71712",
+      "brightness":"0.78"
+   },
+   {
+      "name":"Salmon pink",
+      "ral":"3022",
+      "rgb":{
+         "r":"217",
+         "g":"89",
+         "b":"79",
+         "rgb":"217, 89, 79"
+      },
+      "hex":"D9594F",
+      "brightness":"0.85"
+   },
+   {
+      "name":"Luminous red",
+      "ral":"3024",
+      "rgb":{
+         "r":"252",
+         "g":"10",
+         "b":"28",
+         "rgb":"252, 10, 28"
+      },
+      "hex":"FC0A1C",
+      "brightness":"0.99"
+   },
+   {
+      "name":"Luminous bright red",
+      "ral":"3026",
+      "rgb":{
+         "r":"252",
+         "g":"20",
+         "b":"20",
+         "rgb":"252, 20, 20"
+      },
+      "hex":"FC1414",
+      "brightness":"0.99"
+   },
+   {
+      "name":"Raspberry red",
+      "ral":"3027",
+      "rgb":{
+         "r":"181",
+         "g":"18",
+         "b":"51",
+         "rgb":"181, 18, 51"
+      },
+      "hex":"B51233",
+      "brightness":"0.71"
+   },
+   {
+      "name":"Orient red",
+      "ral":"3031",
+      "rgb":{
+         "r":"166",
+         "g":"28",
+         "b":"46",
+         "rgb":"166, 28, 46"
+      },
+      "hex":"A61C2E",
+      "brightness":"0.65"
+   },
+   {
+      "name":"Red lilac",
+      "ral":"4001",
+      "rgb":{
+         "r":"130",
+         "g":"64",
+         "b":"48",
+         "rgb":"130, 64, 48"
+      },
+      "hex":"824030",
+      "brightness":"0.51"
+   },
+   {
+      "name":"Red violet",
+      "ral":"4002",
+      "rgb":{
+         "r":"143",
+         "g":"38",
+         "b":"64",
+         "rgb":"143, 38, 64"
+      },
+      "hex":"8F2640",
+      "brightness":"0.56"
+   },
+   {
+      "name":"Heather violet",
+      "ral":"4003",
+      "rgb":{
+         "r":"201",
+         "g":"56",
+         "b":"140",
+         "rgb":"201, 56, 140"
+      },
+      "hex":"C9388C",
+      "brightness":"0.79"
+   },
+   {
+      "name":"Claret violet",
+      "ral":"4004",
+      "rgb":{
+         "r":"92",
+         "g":"8",
+         "b":"43",
+         "rgb":"92, 8, 43"
+      },
+      "hex":"5C082B",
+      "brightness":"0.36"
+   },
+   {
+      "name":"Blue lilac",
+      "ral":"4005",
+      "rgb":{
+         "r":"99",
+         "g":"61",
+         "b":"156",
+         "rgb":"99, 61, 156"
+      },
+      "hex":"633D9C",
+      "brightness":"0.39"
+   },
+   {
+      "name":"Traffic purple",
+      "ral":"4006",
+      "rgb":{
+         "r":"145",
+         "g":"15",
+         "b":"102",
+         "rgb":"145, 15, 102"
+      },
+      "hex":"910F66",
+      "brightness":"0.57"
+   },
+   {
+      "name":"Purple violet",
+      "ral":"4007",
+      "rgb":{
+         "r":"56",
+         "g":"10",
+         "b":"46",
+         "rgb":"56, 10, 46"
+      },
+      "hex":"380A2E",
+      "brightness":"0.22"
+   },
+   {
+      "name":"Signal violet",
+      "ral":"4008",
+      "rgb":{
+         "r":"125",
+         "g":"31",
+         "b":"122",
+         "rgb":"125, 31, 122"
+      },
+      "hex":"7D1F7A",
+      "brightness":"0.49"
+   },
+   {
+      "name":"Pastel violet",
+      "ral":"4009",
+      "rgb":{
+         "r":"158",
+         "g":"115",
+         "b":"148",
+         "rgb":"158, 115, 148"
+      },
+      "hex":"9E7394",
+      "brightness":"0.62"
+   },
+   {
+      "name":"Telemagenta",
+      "ral":"4010",
+      "rgb":{
+         "r":"191",
+         "g":"23",
+         "b":"115",
+         "rgb":"191, 23, 115"
+      },
+      "hex":"BF1773",
+      "brightness":"0.75"
+   },
+   {
+      "name":"Violet blue",
+      "ral":"5000",
+      "rgb":{
+         "r":"23",
+         "g":"51",
+         "b":"107",
+         "rgb":"23, 51, 107"
+      },
+      "hex":"17336B",
+      "brightness":"0.09"
+   },
+   {
+      "name":"Green blue",
+      "ral":"5001",
+      "rgb":{
+         "r":"10",
+         "g":"51",
+         "b":"84",
+         "rgb":"10, 51, 84"
+      },
+      "hex":"0A3354",
+      "brightness":"0.04"
+   },
+   {
+      "name":"Ultramarine blue",
+      "ral":"5002",
+      "rgb":{
+         "r":"0",
+         "g":"15",
+         "b":"117",
+         "rgb":"0, 15, 117"
+      },
+      "hex":"000F75",
+      "brightness":"0.00"
+   },
+   {
+      "name":"Sapphire blue",
+      "ral":"5003",
+      "rgb":{
+         "r":"0",
+         "g":"23",
+         "b":"69",
+         "rgb":"0, 23, 69"
+      },
+      "hex":"001745",
+      "brightness":"0.00"
+   },
+   {
+      "name":"Black blue",
+      "ral":"5004",
+      "rgb":{
+         "r":"3",
+         "g":"13",
+         "b":"31",
+         "rgb":"3, 13, 31"
+      },
+      "hex":"030D1F",
+      "brightness":"0.01"
+   },
+   {
+      "name":"Signal blue",
+      "ral":"5005",
+      "rgb":{
+         "r":"0",
+         "g":"46",
+         "b":"122",
+         "rgb":"0, 46, 122"
+      },
+      "hex":"002E7A",
+      "brightness":"0.00"
+   },
+   {
+      "name":"Brillant blue",
+      "ral":"5007",
+      "rgb":{
+         "r":"38",
+         "g":"79",
+         "b":"135",
+         "rgb":"38, 79, 135"
+      },
+      "hex":"264F87",
+      "brightness":"0.15"
+   },
+   {
+      "name":"Gray blue",
+      "ral":"5008",
+      "rgb":{
+         "r":"26",
+         "g":"41",
+         "b":"56",
+         "rgb":"26, 41, 56"
+      },
+      "hex":"1A2938",
+      "brightness":"0.10"
+   },
+   {
+      "name":"Azure blue",
+      "ral":"5009",
+      "rgb":{
+         "r":"23",
+         "g":"69",
+         "b":"112",
+         "rgb":"23, 69, 112"
+      },
+      "hex":"174570",
+      "brightness":"0.09"
+   },
+   {
+      "name":"Steel blue",
+      "ral":"5011",
+      "rgb":{
+         "r":"0",
+         "g":"43",
+         "b":"112",
+         "rgb":"0, 43, 112"
+      },
+      "hex":"002B70",
+      "brightness":"0.00"
+   },
+   {
+      "name":"Light blue",
+      "ral":"5012",
+      "rgb":{
+         "r":"41",
+         "g":"115",
+         "b":"184",
+         "rgb":"41, 115, 184"
+      },
+      "hex":"2973B8",
+      "brightness":"0.16"
+   },
+   {
+      "name":"Cobalt blue",
+      "ral":"5013",
+      "rgb":{
+         "r":"0",
+         "g":"18",
+         "b":"69",
+         "rgb":"0, 18, 69"
+      },
+      "hex":"001245",
+      "brightness":"0.00"
+   },
+   {
+      "name":"Pigeon blue",
+      "ral":"5014",
+      "rgb":{
+         "r":"77",
+         "g":"105",
+         "b":"153",
+         "rgb":"77, 105, 153"
+      },
+      "hex":"4D6999",
+      "brightness":"0.30"
+   },
+   {
+      "name":"Sky blue",
+      "ral":"5015",
+      "rgb":{
+         "r":"23",
+         "g":"97",
+         "b":"171",
+         "rgb":"23, 97, 171"
+      },
+      "hex":"1761AB",
+      "brightness":"0.09"
+   },
+   {
+      "name":"Traffic blue",
+      "ral":"5017",
+      "rgb":{
+         "r":"0",
+         "g":"59",
+         "b":"128",
+         "rgb":"0, 59, 128"
+      },
+      "hex":"003B80",
+      "brightness":"0.00"
+   },
+   {
+      "name":"Turquoise blue",
+      "ral":"5018",
+      "rgb":{
+         "r":"56",
+         "g":"148",
+         "b":"130",
+         "rgb":"56, 148, 130"
+      },
+      "hex":"389482",
+      "brightness":"0.22"
+   },
+   {
+      "name":"Capri blue",
+      "ral":"5019",
+      "rgb":{
+         "r":"10",
+         "g":"66",
+         "b":"120",
+         "rgb":"10, 66, 120"
+      },
+      "hex":"0A4278",
+      "brightness":"0.04"
+   },
+   {
+      "name":"Steel blue",
+      "ral":"5020",
+      "rgb":{
+         "r":"5",
+         "g":"51",
+         "b":"51",
+         "rgb":"5, 51, 51"
+      },
+      "hex":"053333",
+      "brightness":"0.02"
+   },
+   {
+      "name":"Water blue",
+      "ral":"5021",
+      "rgb":{
+         "r":"26",
+         "g":"122",
+         "b":"99",
+         "rgb":"26, 122, 99"
+      },
+      "hex":"1A7A63",
+      "brightness":"0.10"
+   },
+   {
+      "name":"Night blue",
+      "ral":"5022",
+      "rgb":{
+         "r":"0",
+         "g":"8",
+         "b":"79",
+         "rgb":"0, 8, 79"
+      },
+      "hex":"00084F",
+      "brightness":"0.00"
+   },
+   {
+      "name":"Distant blue",
+      "ral":"5023",
+      "rgb":{
+         "r":"46",
+         "g":"82",
+         "b":"143",
+         "rgb":"46, 82, 143"
+      },
+      "hex":"2E528F",
+      "brightness":"0.18"
+   },
+   {
+      "name":"Pastel blue",
+      "ral":"5024",
+      "rgb":{
+         "r":"87",
+         "g":"140",
+         "b":"171",
+         "rgb":"87, 140, 171"
+      },
+      "hex":"578CAB",
+      "brightness":"0.34"
+   },
+   {
+      "name":"Patina green",
+      "ral":"6000",
+      "rgb":{
+         "r":"51",
+         "g":"120",
+         "b":"84",
+         "rgb":"51, 120, 84"
+      },
+      "hex":"337854",
+      "brightness":"0.20"
+   },
+   {
+      "name":"Emerald green",
+      "ral":"6001",
+      "rgb":{
+         "r":"38",
+         "g":"102",
+         "b":"81",
+         "rgb":"38, 102, 81"
+      },
+      "hex":"266651",
+      "brightness":"0.15"
+   },
+   {
+      "name":"Leaf green",
+      "ral":"6002",
+      "rgb":{
+         "r":"38",
+         "g":"87",
+         "b":"33",
+         "rgb":"38, 87, 33"
+      },
+      "hex":"265721",
+      "brightness":"0.15"
+   },
+   {
+      "name":"Olive green",
+      "ral":"6003",
+      "rgb":{
+         "r":"61",
+         "g":"69",
+         "b":"46",
+         "rgb":"61, 69, 46"
+      },
+      "hex":"3D452E",
+      "brightness":"0.24"
+   },
+   {
+      "name":"Blue green",
+      "ral":"6004",
+      "rgb":{
+         "r":"13",
+         "g":"59",
+         "b":"46",
+         "rgb":"13, 59, 46"
+      },
+      "hex":"0D3B2E",
+      "brightness":"0.05"
+   },
+   {
+      "name":"Moss green",
+      "ral":"6005",
+      "rgb":{
+         "r":"10",
+         "g":"56",
+         "b":"31",
+         "rgb":"10, 56, 31"
+      },
+      "hex":"0A381F",
+      "brightness":"0.04"
+   },
+   {
+      "name":"Grey olive",
+      "ral":"6006",
+      "rgb":{
+         "r":"41",
+         "g":"43",
+         "b":"46",
+         "rgb":"41, 43, 46"
+      },
+      "hex":"292B2E",
+      "brightness":"0.16"
+   },
+   {
+      "name":"Bottle green",
+      "ral":"6007",
+      "rgb":{
+         "r":"28",
+         "g":"38",
+         "b":"23",
+         "rgb":"28, 38, 23"
+      },
+      "hex":"1C2617",
+      "brightness":"0.11"
+   },
+   {
+      "name":"Brown green",
+      "ral":"6008",
+      "rgb":{
+         "r":"33",
+         "g":"33",
+         "b":"26",
+         "rgb":"33, 33, 26"
+      },
+      "hex":"21211A",
+      "brightness":"0.13"
+   },
+   {
+      "name":"Fir green",
+      "ral":"6009",
+      "rgb":{
+         "r":"23",
+         "g":"41",
+         "b":"28",
+         "rgb":"23, 41, 28"
+      },
+      "hex":"17291C",
+      "brightness":"0.09"
+   },
+   {
+      "name":"Grass green",
+      "ral":"6010",
+      "rgb":{
+         "r":"54",
+         "g":"105",
+         "b":"38",
+         "rgb":"54, 105, 38"
+      },
+      "hex":"366926",
+      "brightness":"0.21"
+   },
+   {
+      "name":"Reseda green",
+      "ral":"6011",
+      "rgb":{
+         "r":"94",
+         "g":"125",
+         "b":"79",
+         "rgb":"94, 125, 79"
+      },
+      "hex":"5E7D4F",
+      "brightness":"0.37"
+   },
+   {
+      "name":"Black green",
+      "ral":"6012",
+      "rgb":{
+         "r":"31",
+         "g":"46",
+         "b":"43",
+         "rgb":"31, 46, 43"
+      },
+      "hex":"1F2E2B",
+      "brightness":"0.12"
+   },
+   {
+      "name":"Reed green",
+      "ral":"6013",
+      "rgb":{
+         "r":"117",
+         "g":"115",
+         "b":"79",
+         "rgb":"117, 115, 79"
+      },
+      "hex":"75734F",
+      "brightness":"0.46"
+   },
+   {
+      "name":"Yellow olive",
+      "ral":"6014",
+      "rgb":{
+         "r":"51",
+         "g":"48",
+         "b":"38",
+         "rgb":"51, 48, 38"
+      },
+      "hex":"333026",
+      "brightness":"0.20"
+   },
+   {
+      "name":"Black olive",
+      "ral":"6015",
+      "rgb":{
+         "r":"41",
+         "g":"43",
+         "b":"38",
+         "rgb":"41, 43, 38"
+      },
+      "hex":"292B26",
+      "brightness":"0.16"
+   },
+   {
+      "name":"Turquoise green",
+      "ral":"6016",
+      "rgb":{
+         "r":"15",
+         "g":"112",
+         "b":"51",
+         "rgb":"15, 112, 51"
+      },
+      "hex":"0F7033",
+      "brightness":"0.06"
+   },
+   {
+      "name":"Yellow green",
+      "ral":"6017",
+      "rgb":{
+         "r":"64",
+         "g":"130",
+         "b":"54",
+         "rgb":"64, 130, 54"
+      },
+      "hex":"408236",
+      "brightness":"0.25"
+   },
+   {
+      "name":"May green",
+      "ral":"6018",
+      "rgb":{
+         "r":"79",
+         "g":"168",
+         "b":"51",
+         "rgb":"79, 168, 51"
+      },
+      "hex":"4FA833",
+      "brightness":"0.31"
+   },
+   {
+      "name":"Pastel green",
+      "ral":"6019",
+      "rgb":{
+         "r":"191",
+         "g":"227",
+         "b":"186",
+         "rgb":"191, 227, 186"
+      },
+      "hex":"BFE3BA",
+      "brightness":"0.75"
+   },
+   {
+      "name":"Chrome green",
+      "ral":"6020",
+      "rgb":{
+         "r":"38",
+         "g":"56",
+         "b":"41",
+         "rgb":"38, 56, 41"
+      },
+      "hex":"263829",
+      "brightness":"0.15"
+   },
+   {
+      "name":"Pale green",
+      "ral":"6021",
+      "rgb":{
+         "r":"133",
+         "g":"166",
+         "b":"122",
+         "rgb":"133, 166, 122"
+      },
+      "hex":"85A67A",
+      "brightness":"0.52"
+   },
+   {
+      "name":"Olive drab",
+      "ral":"6022",
+      "rgb":{
+         "r":"43",
+         "g":"38",
+         "b":"28",
+         "rgb":"43, 38, 28"
+      },
+      "hex":"2B261C",
+      "brightness":"0.17"
+   },
+   {
+      "name":"Traffic green",
+      "ral":"6024",
+      "rgb":{
+         "r":"36",
+         "g":"145",
+         "b":"64",
+         "rgb":"36, 145, 64"
+      },
+      "hex":"249140",
+      "brightness":"0.14"
+   },
+   {
+      "name":"Fern green",
+      "ral":"6025",
+      "rgb":{
+         "r":"74",
+         "g":"110",
+         "b":"51",
+         "rgb":"74, 110, 51"
+      },
+      "hex":"4A6E33",
+      "brightness":"0.29"
+   },
+   {
+      "name":"Opal green",
+      "ral":"6026",
+      "rgb":{
+         "r":"10",
+         "g":"92",
+         "b":"51",
+         "rgb":"10, 92, 51"
+      },
+      "hex":"0A5C33",
+      "brightness":"0.04"
+   },
+   {
+      "name":"Light green",
+      "ral":"6027",
+      "rgb":{
+         "r":"125",
+         "g":"204",
+         "b":"189",
+         "rgb":"125, 204, 189"
+      },
+      "hex":"7DCCBD",
+      "brightness":"0.49"
+   },
+   {
+      "name":"Pine green",
+      "ral":"6028",
+      "rgb":{
+         "r":"38",
+         "g":"74",
+         "b":"51",
+         "rgb":"38, 74, 51"
+      },
+      "hex":"264A33",
+      "brightness":"0.15"
+   },
+   {
+      "name":"Mint green",
+      "ral":"6029",
+      "rgb":{
+         "r":"18",
+         "g":"120",
+         "b":"38",
+         "rgb":"18, 120, 38"
+      },
+      "hex":"127826",
+      "brightness":"0.07"
+   },
+   {
+      "name":"Signal green",
+      "ral":"6032",
+      "rgb":{
+         "r":"41",
+         "g":"138",
+         "b":"64",
+         "rgb":"41, 138, 64"
+      },
+      "hex":"298A40",
+      "brightness":"0.16"
+   },
+   {
+      "name":"Mint turquoise",
+      "ral":"6033",
+      "rgb":{
+         "r":"66",
+         "g":"140",
+         "b":"120",
+         "rgb":"66, 140, 120"
+      },
+      "hex":"428C78",
+      "brightness":"0.26"
+   },
+   {
+      "name":"Pastel turquoise",
+      "ral":"6034",
+      "rgb":{
+         "r":"125",
+         "g":"189",
+         "b":"181",
+         "rgb":"125, 189, 181"
+      },
+      "hex":"7DBDB5",
+      "brightness":"0.49"
+   },
+   {
+      "name":"Squirrel grey",
+      "ral":"7000",
+      "rgb":{
+         "r":"115",
+         "g":"133",
+         "b":"145",
+         "rgb":"115, 133, 145"
+      },
+      "hex":"738591",
+      "brightness":"0.45"
+   },
+   {
+      "name":"Silver grey",
+      "ral":"7001",
+      "rgb":{
+         "r":"135",
+         "g":"148",
+         "b":"166",
+         "rgb":"135, 148, 166"
+      },
+      "hex":"8794A6",
+      "brightness":"0.53"
+   },
+   {
+      "name":"Olive grey",
+      "ral":"7002",
+      "rgb":{
+         "r":"122",
+         "g":"117",
+         "b":"97",
+         "rgb":"122, 117, 97"
+      },
+      "hex":"7A7561",
+      "brightness":"0.48"
+   },
+   {
+      "name":"Moss grey",
+      "ral":"7003",
+      "rgb":{
+         "r":"112",
+         "g":"112",
+         "b":"97",
+         "rgb":"112, 112, 97"
+      },
+      "hex":"707061",
+      "brightness":"0.44"
+   },
+   {
+      "name":"Signal grey",
+      "ral":"7004",
+      "rgb":{
+         "r":"156",
+         "g":"156",
+         "b":"166",
+         "rgb":"156, 156, 166"
+      },
+      "hex":"9C9CA6",
+      "brightness":"0.61"
+   },
+   {
+      "name":"Mouse grey",
+      "ral":"7005",
+      "rgb":{
+         "r":"97",
+         "g":"105",
+         "b":"105",
+         "rgb":"97, 105, 105"
+      },
+      "hex":"616969",
+      "brightness":"0.38"
+   },
+   {
+      "name":"Beige grey",
+      "ral":"7006",
+      "rgb":{
+         "r":"107",
+         "g":"97",
+         "b":"87",
+         "rgb":"107, 97, 87"
+      },
+      "hex":"6B6157",
+      "brightness":"0.42"
+   },
+   {
+      "name":"Khaki grey",
+      "ral":"7008",
+      "rgb":{
+         "r":"105",
+         "g":"84",
+         "b":"56",
+         "rgb":"105, 84, 56"
+      },
+      "hex":"695438",
+      "brightness":"0.41"
+   },
+   {
+      "name":"Green grey",
+      "ral":"7009",
+      "rgb":{
+         "r":"77",
+         "g":"82",
+         "b":"74",
+         "rgb":"77, 82, 74"
+      },
+      "hex":"4D524A",
+      "brightness":"0.30"
+   },
+   {
+      "name":"Tarpaulin grey",
+      "ral":"7010",
+      "rgb":{
+         "r":"74",
+         "g":"79",
+         "b":"74",
+         "rgb":"74, 79, 74"
+      },
+      "hex":"4A4F4A",
+      "brightness":"0.29"
+   },
+   {
+      "name":"Iron grey",
+      "ral":"7011",
+      "rgb":{
+         "r":"64",
+         "g":"74",
+         "b":"84",
+         "rgb":"64, 74, 84"
+      },
+      "hex":"404A54",
+      "brightness":"0.25"
+   },
+   {
+      "name":"Basalt grey",
+      "ral":"7012",
+      "rgb":{
+         "r":"74",
+         "g":"84",
+         "b":"89",
+         "rgb":"74, 84, 89"
+      },
+      "hex":"4A5459",
+      "brightness":"0.29"
+   },
+   {
+      "name":"Brown grey",
+      "ral":"7013",
+      "rgb":{
+         "r":"71",
+         "g":"66",
+         "b":"56",
+         "rgb":"71, 66, 56"
+      },
+      "hex":"474238",
+      "brightness":"0.28"
+   },
+   {
+      "name":"Slate grey",
+      "ral":"7015",
+      "rgb":{
+         "r":"61",
+         "g":"66",
+         "b":"82",
+         "rgb":"61, 66, 82"
+      },
+      "hex":"3D4252",
+      "brightness":"0.24"
+   },
+   {
+      "name":"Anthracite grey",
+      "ral":"7016",
+      "rgb":{
+         "r":"38",
+         "g":"46",
+         "b":"56",
+         "rgb":"38, 46, 56"
+      },
+      "hex":"262E38",
+      "brightness":"0.15"
+   },
+   {
+      "name":"Black grey",
+      "ral":"7021",
+      "rgb":{
+         "r":"26",
+         "g":"33",
+         "b":"41",
+         "rgb":"26, 33, 41"
+      },
+      "hex":"1A2129",
+      "brightness":"0.10"
+   },
+   {
+      "name":"Umbra grey",
+      "ral":"7022",
+      "rgb":{
+         "r":"61",
+         "g":"61",
+         "b":"59",
+         "rgb":"61, 61, 59"
+      },
+      "hex":"3D3D3B",
+      "brightness":"0.24"
+   },
+   {
+      "name":"Concrete grey",
+      "ral":"7023",
+      "rgb":{
+         "r":"122",
+         "g":"125",
+         "b":"117",
+         "rgb":"122, 125, 117"
+      },
+      "hex":"7A7D75",
+      "brightness":"0.48"
+   },
+   {
+      "name":"Graphite grey",
+      "ral":"7024",
+      "rgb":{
+         "r":"48",
+         "g":"56",
+         "b":"69",
+         "rgb":"48, 56, 69"
+      },
+      "hex":"303845",
+      "brightness":"0.19"
+   },
+   {
+      "name":"Granite grey",
+      "ral":"7026",
+      "rgb":{
+         "r":"38",
+         "g":"51",
+         "b":"56",
+         "rgb":"38, 51, 56"
+      },
+      "hex":"263338",
+      "brightness":"0.15"
+   },
+   {
+      "name":"Stone grey",
+      "ral":"7030",
+      "rgb":{
+         "r":"145",
+         "g":"143",
+         "b":"135",
+         "rgb":"145, 143, 135"
+      },
+      "hex":"918F87",
+      "brightness":"0.57"
+   },
+   {
+      "name":"Blue grey",
+      "ral":"7031",
+      "rgb":{
+         "r":"77",
+         "g":"92",
+         "b":"107",
+         "rgb":"77, 92, 107"
+      },
+      "hex":"4D5C6B",
+      "brightness":"0.30"
+   },
+   {
+      "name":"Pebble grey",
+      "ral":"7032",
+      "rgb":{
+         "r":"189",
+         "g":"186",
+         "b":"171",
+         "rgb":"189, 186, 171"
+      },
+      "hex":"BDBAAB",
+      "brightness":"0.74"
+   },
+   {
+      "name":"Cement grey",
+      "ral":"7033",
+      "rgb":{
+         "r":"122",
+         "g":"130",
+         "b":"117",
+         "rgb":"122, 130, 117"
+      },
+      "hex":"7A8275",
+      "brightness":"0.48"
+   },
+   {
+      "name":"Yellow grey",
+      "ral":"7034",
+      "rgb":{
+         "r":"143",
+         "g":"135",
+         "b":"112",
+         "rgb":"143, 135, 112"
+      },
+      "hex":"8F8770",
+      "brightness":"0.56"
+   },
+   {
+      "name":"Light grey",
+      "ral":"7035",
+      "rgb":{
+         "r":"212",
+         "g":"217",
+         "b":"219",
+         "rgb":"212, 217, 219"
+      },
+      "hex":"D4D9DB",
+      "brightness":"0.83"
+   },
+   {
+      "name":"Platinum grey",
+      "ral":"7036",
+      "rgb":{
+         "r":"158",
+         "g":"150",
+         "b":"156",
+         "rgb":"158, 150, 156"
+      },
+      "hex":"9E969C",
+      "brightness":"0.62"
+   },
+   {
+      "name":"Dusty grey",
+      "ral":"7037",
+      "rgb":{
+         "r":"122",
+         "g":"125",
+         "b":"128",
+         "rgb":"122, 125, 128"
+      },
+      "hex":"7A7D80",
+      "brightness":"0.48"
+   },
+   {
+      "name":"Agate grey",
+      "ral":"7038",
+      "rgb":{
+         "r":"186",
+         "g":"189",
+         "b":"186",
+         "rgb":"186, 189, 186"
+      },
+      "hex":"BABDBA",
+      "brightness":"0.73"
+   },
+   {
+      "name":"Quartz grey",
+      "ral":"7039",
+      "rgb":{
+         "r":"97",
+         "g":"94",
+         "b":"89",
+         "rgb":"97, 94, 89"
+      },
+      "hex":"615E59",
+      "brightness":"0.38"
+   },
+   {
+      "name":"Window grey",
+      "ral":"7040",
+      "rgb":{
+         "r":"158",
+         "g":"163",
+         "b":"176",
+         "rgb":"158, 163, 176"
+      },
+      "hex":"9EA3B0",
+      "brightness":"0.62"
+   },
+   {
+      "name":"Verkehrsgrau A",
+      "ral":"7042",
+      "rgb":{
+         "r":"143",
+         "g":"150",
+         "b":"153",
+         "rgb":"143, 150, 153"
+      },
+      "hex":"8F9699",
+      "brightness":"0.56"
+   },
+   {
+      "name":"Verkehrsgrau B",
+      "ral":"7043",
+      "rgb":{
+         "r":"64",
+         "g":"69",
+         "b":"69",
+         "rgb":"64, 69, 69"
+      },
+      "hex":"404545",
+      "brightness":"0.25"
+   },
+   {
+      "name":"Silk grey",
+      "ral":"7044",
+      "rgb":{
+         "r":"194",
+         "g":"191",
+         "b":"184",
+         "rgb":"194, 191, 184"
+      },
+      "hex":"C2BFB8",
+      "brightness":"0.76"
+   },
+   {
+      "name":"Telegrau 1",
+      "ral":"7045",
+      "rgb":{
+         "r":"143",
+         "g":"148",
+         "b":"158",
+         "rgb":"143, 148, 158"
+      },
+      "hex":"8F949E",
+      "brightness":"0.56"
+   },
+   {
+      "name":"Telegrau 2",
+      "ral":"7046",
+      "rgb":{
+         "r":"120",
+         "g":"130",
+         "b":"140",
+         "rgb":"120, 130, 140"
+      },
+      "hex":"78828C",
+      "brightness":"0.47"
+   },
+   {
+      "name":"Telegrau 4",
+      "ral":"7047",
+      "rgb":{
+         "r":"217",
+         "g":"214",
+         "b":"219",
+         "rgb":"217, 214, 219"
+      },
+      "hex":"D9D6DB",
+      "brightness":"0.85"
+   },
+   {
+      "name":"Green brown",
+      "ral":"8000",
+      "rgb":{
+         "r":"125",
+         "g":"92",
+         "b":"56",
+         "rgb":"125, 92, 56"
+      },
+      "hex":"7D5C38",
+      "brightness":"0.49"
+   },
+   {
+      "name":"Ocher brown",
+      "ral":"8001",
+      "rgb":{
+         "r":"145",
+         "g":"82",
+         "b":"46",
+         "rgb":"145, 82, 46"
+      },
+      "hex":"91522E",
+      "brightness":"0.57"
+   },
+   {
+      "name":"Signal brown",
+      "ral":"8002",
+      "rgb":{
+         "r":"110",
+         "g":"59",
+         "b":"58",
+         "rgb":"110, 59, 58"
+      },
+      "hex":"6E3B3A",
+      "brightness":"0.43"
+   },
+   {
+      "name":"Clay brown",
+      "ral":"8003",
+      "rgb":{
+         "r":"115",
+         "g":"59",
+         "b":"36",
+         "rgb":"115, 59, 36"
+      },
+      "hex":"733B24",
+      "brightness":"0.45"
+   },
+   {
+      "name":"Copper brown",
+      "ral":"8004",
+      "rgb":{
+         "r":"133",
+         "g":"56",
+         "b":"43",
+         "rgb":"133, 56, 43"
+      },
+      "hex":"85382B",
+      "brightness":"0.52"
+   },
+   {
+      "name":"Fawn brown",
+      "ral":"8007",
+      "rgb":{
+         "r":"94",
+         "g":"51",
+         "b":"33",
+         "rgb":"94, 51, 33"
+      },
+      "hex":"5E3321",
+      "brightness":"0.37"
+   },
+   {
+      "name":"Olive brown",
+      "ral":"8008",
+      "rgb":{
+         "r":"99",
+         "g":"61",
+         "b":"36",
+         "rgb":"99, 61, 36"
+      },
+      "hex":"633D24",
+      "brightness":"0.39"
+   },
+   {
+      "name":"Nut brown",
+      "ral":"8011",
+      "rgb":{
+         "r":"71",
+         "g":"38",
+         "b":"28",
+         "rgb":"71, 38, 28"
+      },
+      "hex":"47261C",
+      "brightness":"0.28"
+   },
+   {
+      "name":"Red brown",
+      "ral":"8012",
+      "rgb":{
+         "r":"84",
+         "g":"31",
+         "b":"31",
+         "rgb":"84, 31, 31"
+      },
+      "hex":"541F1F",
+      "brightness":"0.33"
+   },
+   {
+      "name":"Sepia brown",
+      "ral":"8014",
+      "rgb":{
+         "r":"56",
+         "g":"38",
+         "b":"28",
+         "rgb":"56, 38, 28"
+      },
+      "hex":"38261C",
+      "brightness":"0.22"
+   },
+   {
+      "name":"Chestnut brown",
+      "ral":"8015",
+      "rgb":{
+         "r":"77",
+         "g":"31",
+         "b":"28",
+         "rgb":"77, 31, 28"
+      },
+      "hex":"4D1F1C",
+      "brightness":"0.30"
+   },
+   {
+      "name":"Mahogany brown",
+      "ral":"8016",
+      "rgb":{
+         "r":"61",
+         "g":"31",
+         "b":"28",
+         "rgb":"61, 31, 28"
+      },
+      "hex":"3D1F1C",
+      "brightness":"0.24"
+   },
+   {
+      "name":"Chocolate brown",
+      "ral":"8017",
+      "rgb":{
+         "r":"46",
+         "g":"28",
+         "b":"28",
+         "rgb":"46, 28, 28"
+      },
+      "hex":"2E1C1C",
+      "brightness":"0.18"
+   },
+   {
+      "name":"Grey brown",
+      "ral":"8019",
+      "rgb":{
+         "r":"43",
+         "g":"38",
+         "b":"41",
+         "rgb":"43, 38, 41"
+      },
+      "hex":"2B2629",
+      "brightness":"0.17"
+   },
+   {
+      "name":"Black brown",
+      "ral":"8022",
+      "rgb":{
+         "r":"13",
+         "g":"8",
+         "b":"13",
+         "rgb":"13, 8, 13"
+      },
+      "hex":"0D080D",
+      "brightness":"0.05"
+   },
+   {
+      "name":"Orange brown",
+      "ral":"8023",
+      "rgb":{
+         "r":"156",
+         "g":"69",
+         "b":"41",
+         "rgb":"156, 69, 41"
+      },
+      "hex":"9C4529",
+      "brightness":"0.61"
+   },
+   {
+      "name":"Beige brown",
+      "ral":"8024",
+      "rgb":{
+         "r":"110",
+         "g":"64",
+         "b":"48",
+         "rgb":"110, 64, 48"
+      },
+      "hex":"6E4030",
+      "brightness":"0.43"
+   },
+   {
+      "name":"Pale brown",
+      "ral":"8025",
+      "rgb":{
+         "r":"102",
+         "g":"74",
+         "b":"61",
+         "rgb":"102, 74, 61"
+      },
+      "hex":"664A3D",
+      "brightness":"0.40"
+   },
+   {
+      "name":"Terra brown",
+      "ral":"8028",
+      "rgb":{
+         "r":"64",
+         "g":"46",
+         "b":"33",
+         "rgb":"64, 46, 33"
+      },
+      "hex":"402E21",
+      "brightness":"0.25"
+   },
+   {
+      "name":"Cream",
+      "ral":"9001",
+      "rgb":{
+         "r":"252",
+         "g":"252",
+         "b":"240",
+         "rgb":"252, 252, 240"
+      },
+      "hex":"FCFCF0",
+      "brightness":"0.99"
+   },
+   {
+      "name":"Grey white",
+      "ral":"9002",
+      "rgb":{
+         "r":"240",
+         "g":"237",
+         "b":"230",
+         "rgb":"240, 237, 230"
+      },
+      "hex":"F0EDE6",
+      "brightness":"0.94"
+   },
+   {
+      "name":"Signal white",
+      "ral":"9003",
+      "rgb":{
+         "r":"255",
+         "g":"255",
+         "b":"255",
+         "rgb":"255, 255, 255"
+      },
+      "hex":"FFFFFF",
+      "brightness":"1.00"
+   },
+   {
+      "name":"Signal black",
+      "ral":"9004",
+      "rgb":{
+         "r":"28",
+         "g":"28",
+         "b":"33",
+         "rgb":"28, 28, 33"
+      },
+      "hex":"1C1C21",
+      "brightness":"0.11"
+   },
+   {
+      "name":"Jet black",
+      "ral":"9005",
+      "rgb":{
+         "r":"3",
+         "g":"5",
+         "b":"10",
+         "rgb":"3, 5, 10"
+      },
+      "hex":"03050A",
+      "brightness":"0.01"
+   },
+   {
+      "name":"White aluminium",
+      "ral":"9006",
+      "rgb":{
+         "r":"166",
+         "g":"171",
+         "b":"181",
+         "rgb":"166, 171, 181"
+      },
+      "hex":"A6ABB5",
+      "brightness":"0.65"
+   },
+   {
+      "name":"Grey aluminium",
+      "ral":"9007",
+      "rgb":{
+         "r":"125",
+         "g":"122",
+         "b":"120",
+         "rgb":"125, 122, 120"
+      },
+      "hex":"7D7A78",
+      "brightness":"0.49"
+   },
+   {
+      "name":"Pure white",
+      "ral":"9010",
+      "rgb":{
+         "r":"250",
+         "g":"255",
+         "b":"255",
+         "rgb":"250, 255, 255"
+      },
+      "hex":"FAFFFF",
+      "brightness":"0.98"
+   },
+   {
+      "name":"Graphite black",
+      "ral":"9011",
+      "rgb":{
+         "r":"13",
+         "g":"18",
+         "b":"26",
+         "rgb":"13, 18, 26"
+      },
+      "hex":"0D121A",
+      "brightness":"0.05"
+   },
+   {
+      "name":"Traffic white",
+      "ral":"9016",
+      "rgb":{
+         "r":"252",
+         "g":"255",
+         "b":"255",
+         "rgb":"252, 255, 255"
+      },
+      "hex":"FCFFFF",
+      "brightness":"0.99"
+   },
+   {
+      "name":"Traffic black",
+      "ral":"9017",
+      "rgb":{
+         "r":"20",
+         "g":"23",
+         "b":"28",
+         "rgb":"20, 23, 28"
+      },
+      "hex":"14171C",
+      "brightness":"0.08"
+   },
+   {
+      "name":"Papyrus white",
+      "ral":"9018",
+      "rgb":{
+         "r":"219",
+         "g":"227",
+         "b":"222",
+         "rgb":"219, 227, 222"
+      },
+      "hex":"DBE3DE",
+      "brightness":"0.86"
+   }
+]

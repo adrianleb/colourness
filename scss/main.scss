@@ -1,0 +1,220 @@
+$black :#222;
+$white:#fff;
+$lightgray:darken($white, 10%);
+
+$testcolor:#f24021;
+
+  @mixin keyframes ($name) {
+    @-webkit-keyframes $name { @content }
+       @-moz-keyframes $name { @content }
+         @-o-keyframes $name { @content }
+            @keyframes $name { @content }
+  }
+
+  @mixin animate ($name, $duration, $type:infinite, $ease:linear) {
+    -webkit-animation: $name $duration $type $ease;
+       -moz-animation: $name $duration $type $ease;
+         -o-animation: $name $duration $type $ease;
+            animation: $name $duration $type $ease;
+  }
+
+
+*,*:before, *:after {
+  box-sizing:border-box;
+}
+* {
+  position:relative;
+  margin:0;
+  padding:0;
+  -webkit-font-smoothing:antialiased;
+}
+
+html {
+  font-size:65.5%;
+}
+
+body {
+  font-size:1.6rem;
+  font-family:"jaf-facitweb", "Helvetica Neue", Arial, sans-serif;
+
+}
+
+%display_font {font-family:"jaf-facitweb", "Helvetica Neue", Arial, sans-serif;}
+
+
+// CLEARFIX the 'Beat that clear fix' 2012 way
+// http://www.css-101.org/articles/clearfix/latest-new-clearfix-so-far.php
+// ======================================================================
+@mixin clearfix {
+ &:after { content:""; display:table; clear:both; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// start!
+body, html {
+    padding: 0;
+  margin: 0;
+}
+html {
+      // background-color:$testcolor;
+    // -webkit-transition:all 0.5s ease-out;
+    overflow:auto;
+}
+body {
+  width:100%;
+  display:block;
+  min-height:100%;
+  // position:fixed;
+  overflow:hidden;
+    @include clearfix;
+    // -webkit-transform:translate3d(0,0,0);
+      // -webkit-transition:all 0.3s linear;
+}
+
+header, footer {
+  display:block;
+  height:5rem;
+  width:100%;
+  position:fixed;
+  z-index: 10;
+  top:0;
+  left:0;
+}
+footer {
+  top:auto;
+  bottom:0;
+}
+
+
+header h1 {
+  padding-left:5%;
+  padding-top:2.5%;
+  font-size:1.7rem;
+    // -webkit-transition:all 0.5s ease-out;
+}
+
+footer {
+  p {
+    padding-left:5%;
+    padding-bottom:2.5%;
+    font-size:1.4rem;
+      // -webkit-transition:all 0.5s ease-out;
+  }
+}
+.color {
+  z-index: -1;
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0%;
+      -webkit-transform:translate3d(0,0,0);
+
+  -webkit-transition:all 0.5s ease-out;
+
+}
+
+.roll {
+  position:relative;
+  float:right;
+  width:30%;
+  right:10%;
+      -webkit-transform:translate3d(0,0,0);
+
+  // margin-right:5%;
+  // padding:25% 0;
+
+}
+
+.isle {
+  width:100%;
+  padding-bottom:60%;
+  position:relative;
+  left:0;
+  display:block;
+  // background-color:black;
+  z-index: 3;
+  section {display:block; @include clearfix; height:100%;}
+  // -webkit-transition:all 0.5s ease-out;
+  margin-bottom:130%;
+
+  &:first-child {
+    margin-top:30%;
+  }
+
+
+
+.sample {
+  display:block;
+  background-color:$testcolor;
+  width:30%;
+  padding-bottom:30%;
+  top:5%;
+  left:5%;
+  position:absolute;
+}
+
+h1 {
+  // float:left;
+  padding-top:4%;
+  font-size:4rem;
+  color:inherit;
+  // -webkit-font-smoothing:subpixel-antialiased;
+}
+h2 {
+  // float:left;
+  // margin-left:39%;
+}
+
+.details {
+    // padding-top:15%;
+  margin-bottom:1rem;
+    margin-left:39%;
+    height:20%;
+}
+.others {
+  float:left;
+  // position:absolute;
+  // z-index: -1;
+  padding-top:10%;
+  p { color:inherit;}
+  padding-bottom:30%;
+
+  // margin-top:65%;  
+  // position:absolute;
+  // margin-left:39%;
+margin-left:5%;
+
+}
+}
+.sidebar {
+  position:fixed;
+    top:0;
+    bottom:0;
+    margin:4rem 0;
+    background-color:$black;
+    left:0;
+    width:4rem;
+}
+
+
+
+
