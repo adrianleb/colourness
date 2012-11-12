@@ -16,13 +16,17 @@
     ColorCard.prototype.className = "isle colorize";
 
     ColorCard.prototype.initialize = function(color) {
-      this.color = color;
+      this.model = color;
+      this.hex = this.model.color.attributes.hex;
+      this.name = this.model.color.attributes.name;
+      this.brightness = this.model.color.attributes.brightness;
+      this.$el.attr('id', "" + this.hex);
       return this.render();
     };
 
     ColorCard.prototype.render = function() {
       return this.$el.html(this.template({
-        color: this.color
+        color: this.model
       }));
     };
 

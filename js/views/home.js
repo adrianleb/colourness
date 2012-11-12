@@ -15,26 +15,33 @@
 
     Home.prototype.el = "body";
 
+    Home.prototype.events = {
+      'keyup #search-input': 'search',
+      'keyup': 'handleKeyboard'
+    };
+
     Home.prototype.colorViews = [];
 
     Home.prototype.initialize = function(key) {
       var _this = this;
+      this.initialKey = key;
       this.colors = new Dot.Collections.Colors();
-      console.log(key);
-      console.log(this.colors);
+      this.windowPos = $(window).scrollTop();
       this.render();
       return this.colors.fetch({
         success: function() {
-          return _this.loadCards();
+          _this.loadCards();
+          return _this.initEvents();
         }
       });
     };
 
     Home.prototype.render = function() {
       $(this.el).html(this.template());
-      this.$el.attr('class', 'container homePage');
-      this.colorDebouncer = _.debounce(this.colorChanger, 10);
-      return this.colorEl = this.$('#color');
+      this.colorEl = this.$('#color');
+      this.inputter = this.$('#search').find('input');
+      this.swappers = $('.classSwaping');
+      return this.colorizers = $('.colorizing');
     };
 
     Home.prototype.loadCards = function() {
@@ -53,54 +60,195 @@
         color = _ref[_i];
         _fn(color);
       }
-      this.bindWaypoint();
-      return this.checkColor();
-    };
-
-    Home.prototype.colorChanger = function() {
-      var data,
-        _this = this;
-      data = this.currentColor.$el.find('[data-hex]');
-      this.$el.css("backgroundColor", this.currentColorHex);
-      return $('.colorizing').css("color", function() {
-        if (_this.currentColorBrightness < 0.5) {
-          return "hsl(0, 0%, 90%)";
-        } else {
-          return "hsl(0, 0%, 10%)";
+      return _.delay((function() {
+        var height, res, _j, _len1, _ref1;
+        _ref1 = _this.colorViews;
+        for (_j = 0, _len1 = _ref1.length; _j < _len1; _j++) {
+          color = _ref1[_j];
+          height = parseFloat((color.$el.height()).toFixed(0));
+          res = parseFloat(color.$el.offset().top.toFixed(0)) + height;
+          color.offsetTop = res;
+          color.heightV = height;
         }
-      });
+        return _.delay((function() {
+          _this.findKey();
+          return _this.checkColor();
+        }), 0);
+      }), 0);
     };
 
-    Home.prototype.bindWaypoint = function() {
+    Home.prototype.findKey = function(key) {
+      var r, res,
+        _this = this;
+      if (this.initialKey !== void 0) {
+        res = _.find(this.colorViews, function(v) {
+          return v.hex === _this.initialKey.toUpperCase();
+        });
+        return this.scrollWindow(res.$el.offset().top.toFixed(0) - 150);
+      } else {
+        r = Math.floor(Math.random() * this.colorViews.length);
+        return this.scrollWindow(this.colorViews[r].$el.offset().top.toFixed(0) - 150);
+      }
+    };
+
+    Home.prototype.search = function(e) {
+      e.preventDefault();
+      if (e.which === 38) {
+        this.showPrev(true);
+        return false;
+      } else if (e.which === 40) {
+        this.showNext(true);
+        return false;
+      }
+      this.searcher(e);
+      return false;
+    };
+
+    Home.prototype.handleKeyboard = function(e) {
+      e.preventDefault();
+      if (e.which === 38) {
+        this.showPrev();
+        return false;
+      } else if (e.which === 40) {
+        this.showNext();
+        return false;
+      }
+      return false;
+    };
+
+    Home.prototype.showPrev = function(fromSearch) {
+      var a, i, prev;
+      if (fromSearch == null) {
+        fromSearch = false;
+      }
+      a = this.colorViews;
+      i = this.currentColorIndex;
+      if (fromSearch) {
+        a = this.searchRes;
+        i = this.searchCurrent;
+      }
+      prev = a != null ? a[i - 1] : void 0;
+      if (prev) {
+        i -= 1;
+        this.scrollWindow(a[i].$el.offset().top.toFixed(0) - 150);
+        if (fromSearch) {
+          return this.searchCurrent = i;
+        } else {
+          return this.currentColorIndex = i;
+        }
+      } else {
+        return false;
+      }
+    };
+
+    Home.prototype.showNext = function(fromSearch) {
+      var a, i, next;
+      if (fromSearch == null) {
+        fromSearch = false;
+      }
+      a = this.colorViews;
+      i = this.currentColorIndex;
+      if (fromSearch) {
+        a = this.searchRes;
+        i = this.searchCurrent;
+      }
+      next = a != null ? a[i + 1] : void 0;
+      if (next) {
+        i += 1;
+        this.scrollWindow(a[i].$el.offset().top.toFixed(0) - 150);
+        if (fromSearch) {
+          return this.searchCurrent = i;
+        } else {
+          return this.currentColorIndex = i;
+        }
+      } else {
+        return false;
+      }
+    };
+
+    Home.prototype.scrollWindow = function(val) {
+      return this.$el.animate({
+        scrollTop: val
+      }, 250);
+    };
+
+    Home.prototype.initEvents = function() {
       var checker,
         _this = this;
       checker = _.debounce((function() {
-        _this.windowPos = $(window).scrollTop();
         _this.windowHeight = $(window).height();
+        _this.windowPos = $(window).scrollTop();
         return _this.checkColor();
       }), 20);
-      return $(window).on('scroll', function(e) {
+      this.searcher = _.debounce((function(e) {
+        var res, val;
+        val = $(e.currentTarget).val().toUpperCase();
+        res = _.filter(_this.colorViews, function(c) {
+          return (c.hex.indexOf(val) >= 0) || (c.name.toUpperCase().indexOf(val) >= 0);
+        });
+        if (res.length) {
+          _this.searchRes = res;
+          _this.searchCurrent = 0;
+          _this.scrollWindow(res[0].$el.offset().top.toFixed(0) - 150);
+          return _this.checkColor();
+        }
+      }), 40);
+      $(window).on('scroll', function(e) {
         return checker();
+      });
+      $(window).on('resize', function(e) {
+        return checker();
+      });
+      return $(window).on('hashchange', function(e) {
+        e.preventDefault();
+        return false;
       });
     };
 
     Home.prototype.checkColor = function() {
-      var color, pos, result, _i, _len, _ref;
+      var color, currentPos, pos, result, _i, _len, _ref, _results;
+      currentPos = $(window).scrollTop();
       _ref = this.colorViews;
+      _results = [];
       for (_i = 0, _len = _ref.length; _i < _len; _i++) {
         color = _ref[_i];
         pos = color.$el.offset().top.toFixed(0);
-        result = pos - this.windowPos;
-        if ((result > 0) && (result < this.windowHeight)) {
-          if (color === this.currentColor) {
-            return false;
-          }
+        result = pos - currentPos;
+        if (((result > 0) && (result < this.windowHeight)) && (color !== this.currentColor)) {
           this.currentColor = color;
-          this.currentColorHex = this.currentColor.$el.find('[data-hex]').data("hex");
-          this.currentColorBrightness = this.currentColor.$el.find('[data-hex]').data("brightness");
-          this.colorChanger();
+          this.currentColorIndex = this.colorViews.indexOf(color);
+          _results.push(this.colorChanger());
+        } else {
+          _results.push(void 0);
         }
       }
+      return _results;
+    };
+
+    Home.prototype.colorChanger = function() {
+      var brightness, hex,
+        _this = this;
+      hex = this.currentColor.hex;
+      brightness = this.currentColor.brightness;
+      this.colorEl.css("backgroundColor", '#' + hex);
+      this.inputter.css("color", '#' + hex);
+      if (brightness < 0.5) {
+        this.swappers.addClass("light");
+        this.colorizers.css("color", function() {
+          return "hsl(0, 0%, 90%)";
+        });
+      } else {
+        this.swappers.removeClass("light");
+        this.colorizers.css("color", function() {
+          return "hsl(0, 0%, 10%)";
+        });
+      }
+      console.log(hex, $("#" + hex));
+      this.currentColor.$el.attr('id', '');
+      Backbone.history.navigate("/" + hex, {
+        trigger: false
+      }, false);
+      return this.currentColor.$el.attr('id', hex);
     };
 
     return Home;

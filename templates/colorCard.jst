@@ -41,11 +41,7 @@ function(__obj) {
     
       c = this.color.color.attributes;
     
-      __out.push(' \n<section id="');
-    
-      __out.push(__sanitize(c.hex));
-    
-      __out.push('"data-hex="#');
+      __out.push(' \n<section data-hex="#');
     
       __out.push(__sanitize(c.hex));
     
@@ -73,27 +69,35 @@ function(__obj) {
     
       __out.push(__sanitize(c.hex));
     
-      __out.push(';">\n  \n  <div class="sample" style="background-color:#');
+      __out.push(';">\n  <div class="row">\n    <div class="sample" style="background-color:#');
     
       __out.push(__sanitize(c.hex));
     
-      __out.push(';" > </div>\n  <div class="details">\n      <h1 >#');
+      __out.push(';" > </div\n      ><div class="details">\n        <h1 >#');
     
       __out.push(__sanitize(c.hex));
     
-      __out.push('</h1>\n      <h2>');
+      __out.push('</h1>\n        <h2>');
     
       __out.push(__sanitize(c.name));
     
-      __out.push('</h2>\n  </div>\n      <div class="others">\n        <p>RAL ');
+      __out.push('</h2>\n    </div>\n  </div>\n      <div class="others">\n        <p><span class="color_type">RAL</span><span class="color_val">');
     
       __out.push(__sanitize(c.ral));
     
-      __out.push('</p>\n        <p>RGB ');
+      __out.push('</span></p>\n        <p><span class="color_type">RGB</span><span class="color_val">');
     
       __out.push(__sanitize(c.rgb.rgb));
     
-      __out.push('</p>\n      </div>\n\n</section>\n\n\n\n');
+      __out.push('</span></p>\n        <p><span class="color_type">CMYK</span><span class="color_val">');
+    
+      __out.push(__sanitize(c.cmyk.cmyk));
+    
+      __out.push('</span></p>\n        <p><span class="color_type">HSL</span><span class="color_val">');
+    
+      __out.push(__sanitize(c.hsl.hsl));
+    
+      __out.push('</span></p>\n      </div>\n\n</section>\n\n\n\n');
     
     }).call(this);
     
