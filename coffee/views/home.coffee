@@ -1,3 +1,4 @@
+
 class Dot.Views.Home extends Backbone.View
 
   template: JST['home']
@@ -17,6 +18,7 @@ class Dot.Views.Home extends Backbone.View
     @initialKey = key
     @colors = new Dot.Collections.Colors()
     @windowPos = $(window).scrollTop()
+    @windowHeight = $(window).height()
     @render()
 
     @colors.fetch( 
@@ -148,13 +150,26 @@ class Dot.Views.Home extends Backbone.View
       scrollTop: val
     , 250
 
-
-  initEvents: ->
+  initScrollChecker: =>
     checker = _.debounce ( =>
-      @windowHeight = $(window).height()
-      @windowPos = $(window).scrollTop()  
+      newWinPos = $(window).scrollTop()
+      oldWinPos = @windowPos or 0
+
+      unless newWinPos is oldWinPos
+        @windowPos = newWinPos
       @checkColor()
     ), 20
+
+    $(window).on 'scroll', (e) =>
+      checker()
+
+
+  destroyScrollChecker: =>
+    $(window).off 'scroll'
+    $(window).off 'resize'
+
+
+  initEvents: ->
 
     @searcher = _.debounce ( (e) =>
       val = $(e.currentTarget).val().toUpperCase()
@@ -169,27 +184,31 @@ class Dot.Views.Home extends Backbone.View
     ), 40
 
 
+    @initScrollChecker()
 
-    $(window).on 'scroll', (e) =>
-      checker()
+    resizeChecker = _.debounce ((e) =>
+      @windowHeight = $(window).height()
+      @windowPos = $(window).scrollTop()
+      console.log 'resize check - new height found', @windowHeight
+      @checkColor()
+    ), 300
+
     $(window).on 'resize', (e) =>
-      checker()
+      resizeChecker()
 
     $(window).on 'hashchange', (e) =>
       e.preventDefault()
-      # console.log e
       false
 
   checkColor: ->
-    currentPos = $(window).scrollTop()
-    for color in @colorViews
-      pos = color.$el.offset().top.toFixed(0)
-      result = pos - currentPos
+    res = _.find @colorViews, (c) =>
+      middleOfEl = Math.floor(c.el.clientHeight / 2)
+      (c.el.offsetTop + middleOfEl) - @windowPos in [0...(@windowHeight + middleOfEl)]
 
-      if ((result > 0) and (result < @windowHeight)) and (color isnt @currentColor)
-        @currentColor = color
-        @currentColorIndex = @colorViews.indexOf color
-        @colorChanger()
+    unless res is undefined
+      @currentColor = res
+      @currentColorIndex = @colorViews.indexOf res
+      @colorChanger()
 
 
 
@@ -210,8 +229,8 @@ class Dot.Views.Home extends Backbone.View
         @colorizers.css "color",  =>
           "hsl(0, 0%, 10%)"
 
-      console.log hex, $("##{hex}")
+      # hack for hashchange without jump
       @currentColor.$el.attr 'id', ''
-      Backbone.history.navigate "/#{hex}", {trigger: false}, false
+      Backbone.history.navigate "/#{hex}", {trigger: false, silent: true}, false
       @currentColor.$el.attr 'id', hex
       # false

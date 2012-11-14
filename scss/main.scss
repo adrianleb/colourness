@@ -29,17 +29,23 @@ $testcolor:#f24021;
   -webkit-font-smoothing:antialiased;
 }
 
-html {
-  font-size:65.5%;
+
+
+%display_font {
+  font-family:"Helvetica Neue", Arial, sans-serif;
+   font-family: "jaf-facitweb";
+  // font-family: "ff-meta-web-pro";
+  // font-family: "ff-basic-gothic-web-pro";
+  // font-family: "futura-pt",sans-serif;
+  // font-family: "pragmatica-web-condensed";
+  // font-family: "ratio";
+  // font-family: "adelle-sans";
+   // font-family: "proxima-nova";
+   // font-family: "dejarip";
+    // font-family: "ff-dagny-web-pro";
+      // font-family: "runda";
 }
-
-body {
-  font-size:1.6rem;
-  font-family:"jaf-facitweb", "Helvetica Neue", Arial, sans-serif;
-
-}
-
-%display_font {font-family:"jaf-facitweb", "Helvetica Neue", Arial, sans-serif;}
+// moree
 
 
 // CLEARFIX the 'Beat that clear fix' 2012 way
@@ -64,7 +70,15 @@ body {
 
 
 
+html {
+  font-size:65.5%;
+}
 
+body {
+  font-size:1.6rem;
+  @extend %display_font;
+
+}
 
 
 
@@ -77,7 +91,7 @@ html {
       // background-color:$testcolor;
     // -webkit-transition:all 0.5s ease-out;
     overflow:auto;
-    background-color:#CCCC99;
+    background-color:#F0EDE6;
 }
 body {
   width:100%;
@@ -97,6 +111,10 @@ header, footer {
   z-index: 100;
   top:0;
   left:0;
+}
+
+.logo {
+  font-size:1.6rem;
 }
 footer {
   top:auto;
@@ -141,7 +159,7 @@ footer {
   bottom:0;
   left:0;
   right:0;
-  background-color:#CCCC99;
+  background-color:#F0EDE6;
 
   -webkit-transition:all 0.25s linear;
 
@@ -171,7 +189,7 @@ footer {
   }
 
 
-
+// .row {float:right;}
 .sample {
   display:inline-block;
   background-color:$testcolor;
@@ -188,17 +206,22 @@ h1 {
 }
 h2 {
   width:100%;
+  height:auto;
+    word-wrap: break-word;
+    display:block;
+    // background-color:red;
 }
 
 .details {
   vertical-align:top;
-    padding-top:2.6%;
+    padding-top:3%;
     padding-left:5%;
     margin-right:2.5%;
     display:inline-block;
 }
 .others {
   padding-top:5%;
+  // padding-left:40%;
   p { color:inherit; font-size:1.6rem; position:relative; line-height:2;}
   .color_type {
     text-align:left;
@@ -234,7 +257,7 @@ h2 {
   position: fixed;
   top:15%;
   height:4rem;
-  width:20%;
+  width:30%;
   margin-top:-2.8rem;
   left:5%;
   
@@ -253,10 +276,11 @@ h2 {
     background-color:transparent;
     text-indent:1rem;
     color:hsl(0,0%,90%);
-    font-weight:bold;
+    font-weight:500;
     font-size:2rem;
     outline:none;
-    &::-webkit-input-placeholder { color:inherit; font-weight:500; font-weight:bold; }
+    @extend %display_font;
+    &::-webkit-input-placeholder { color:inherit; font-weight:500; font-weight:500; }
     &::-webkit-search-cancel-button { margin-right:-10%; color:black; background-color:black; right:0; display:none;}
     &::-webkit-search-decoration { -webkit-appearance: none; }
     // &:focus { background-color:transparent; @include background-image($noise,linear-gradient(lighten(#202020, 5%), lighten(#101010, 4%)));  }
@@ -268,6 +292,15 @@ h2 {
 
   }
 
+
+// do font opacity thigny
+// 
+
+  body {
+    opacity:1;
+    -webkit-transition:opacity 0.15s linear;
+    .wf-loading & {opacity:0;}
+  }
 
 
 
